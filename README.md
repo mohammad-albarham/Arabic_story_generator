@@ -18,7 +18,7 @@ This is a Gradio application that allows you to generate an Arabic story using g
 
 ## Usage
 
-0. Add the keys for OPEN AI API model and stability AI API in models.py and image_generator.py
+0. Add the keys for OPEN AI API model and stability AI API in [models.py](https://github.com/mohammad-albarham/Arabic_story_generator/blob/3702d6cad85fe38ff5944d7f99f43a37d7dec151/llm_models.py#L16) and [image_generator.py](https://github.com/mohammad-albarham/Arabic_story_generator/blob/3702d6cad85fe38ff5944d7f99f43a37d7dec151/image_generator.py#L22)
 1. Run the application:
 
     ```shell
