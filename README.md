@@ -1,5 +1,5 @@
 # Gradio Application
-![Header Image](image_logo.png)
+![Header Image](image_logo.png){:height="50px" width="50px"}
 This is a Gradio application that allows you to generate an Arabic story using generative AI models.
 
 ## Installation
