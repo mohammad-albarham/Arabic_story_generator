@@ -119,10 +119,10 @@ def get_Arabic_translation(story_segments):
 
 def get_text_image_pairs(k, prompt):
 
-    describtion = generate_story(k, prompt)
+    description = generate_story(k, prompt)
 
-    segements_translation = get_Arabic_translation(describtion.story_segments)
+    segements_translation = get_Arabic_translation(description.story_segments)
 
-    images_names = [get_image(itm) for itm in describtion.image_prompts]
+    images_names = [get_image(itm) for itm in description.image_prompts]
 
     return (segements_translation.translated_text, images_names)
