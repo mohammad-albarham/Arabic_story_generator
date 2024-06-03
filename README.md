@@ -38,4 +38,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-MIT License
+[ACADEMIC PUBLIC LICENSE](https://github.com/mohammad-albarham/Arabic_story_generator/tree/main?tab=License-1-ov-file)
