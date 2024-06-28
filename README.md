@@ -36,6 +36,16 @@ This is a Gradio application that allows you to generate an Arabic story using g
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
+### Instrcutions for the contribution:
+
+1. Please install black formatter as follows:
+`pip install black`
+2. Make sure to format all python files you want to change using this command on the terminal:
+`black .`
+
+You can see this tutorial for more information about the formatter: [tutorial](https://www.freecodecamp.org/news/auto-format-your-python-code-with-black/)
+
+
 ## License
 
 [ACADEMIC PUBLIC LICENSE](https://github.com/mohammad-albarham/Arabic_story_generator/tree/main?tab=License-1-ov-file)
