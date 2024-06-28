@@ -15,11 +15,13 @@ title_markdown = """
 """
 
 
-def get_text_images_values(k, input_prompt):
+def get_text_images_values(k, input_prompt, api_key_openai, api_key_stability_ai):
 
     pages = int(k)
+    segments_list, images_names = get_text_image_pairs(
+        pages, input_prompt, api_key_openai, api_key_stability_ai
+    )
 
-    segments_list, images_names = get_text_image_pairs(pages, input_prompt)
     return segments_list, images_names
 
 
@@ -32,6 +34,18 @@ css = """
 with gr.Blocks(css=css) as demo:
 
     gr.Markdown(title_markdown)
+
+    with gr.Row():
+        api_key_openai = gr.Textbox(
+            label="Open AI API Key",
+            placeholder="أدخل مفتاح API الخاص بك هنا",
+            type="password",
+        )
+        api_key_stability_ai = gr.Textbox(
+            label="Stability AI API Key",
+            placeholder="أدخل مفتاح API الخاص بك هنا",
+            type="password",
+        )
 
     prompt = gr.Textbox(
         label="معلومات بسيطة عن القصة",
@@ -92,7 +106,7 @@ with gr.Blocks(css=css) as demo:
 
     submit.click(
         fn=get_text_images_values,
-        inputs=[s, prompt],
+        inputs=[s, prompt, api_key_openai, api_key_stability_ai],
         outputs=[segment_list, images_list],
     ).then(
         fn=variable_outputs,
