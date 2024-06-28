@@ -34,7 +34,7 @@ This is a Gradio application that allows you to generate an Arabic story using g
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue then submit a pull request.
 
 ## License
 
