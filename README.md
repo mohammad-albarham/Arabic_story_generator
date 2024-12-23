@@ -1,3 +1,9 @@
+# Live Gradio application 
+
+
+[https://huggingface.co/spaces/pain/Arabic_story_generator](https://huggingface.co/spaces/pain/Arabic_story_generator)
+
+
 # Gradio Application
 
 <img src="image_logo.png" style="width:50%; height:auto;">
